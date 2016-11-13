@@ -1,3 +1,3 @@
 # UploadFile
 Node.js
-Live site: http://www.file34.herokuapp.com
+Live site: http://file34.herokuapp.com
