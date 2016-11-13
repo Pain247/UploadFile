@@ -26,7 +26,7 @@ var storage = multer.diskStorage({
 //display info of file
 var upload = multer({storage:storage});
 app.post('/upload',upload.single("file"),function(req,res){
-  info{
+  info ={
    size: req.file.size.toString()+"B"
   };
   res.end(JSON.stringify(info));
